@@ -7,19 +7,23 @@
     <title>HTML5 Inlämning 1</title>
 </head>
 <body>
+
     <div style="color: blue;">
     <h1>Lorem ipsum</h1>
 </div>
+
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt ad aperiam aut? Omnis labore debitis beatae eum neque exercitationem voluptatem vel. Nisi natus sapiente, perspiciatis modi, eaque illo cum incidunt, maxime saepe repellat libero blanditiis recusandae!</p>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium molestias inventore ullam, repellat nemo cumque consequatur aperiam omnis aliquid deleniti, doloremque perferendis. Iusto tempora nesciunt provident perferendis aperiam neque cumque nostrum aut soluta.</p>
         <div style="color:blue">
     <h4>Ipsum Lorem</h4>
 </div>
+
     <ol style="list-style: disc;">
         <li>Mjölk</li>
         <li>Ägg</li>
         <li>Mjöl</li>
     </ol>
+
     <ol>
         <li>1</li>
         <li>2</li>
@@ -27,6 +31,7 @@
         <li>4</li>
         <li>5</li>
     </ol>
+
     <div>
     <img width="20%" height="20%" src="/Images/tobey maguire.jpg" alt="Bild på Tobey Maguire">
 </div>  
@@ -44,6 +49,7 @@
     <li>Discgolf</li>
 </ol>
 </ol>
+
 <ol style="list-style: disc;">
     <li>Djur</li>
     <li>Fordon</li>
@@ -55,6 +61,7 @@
         </ol>
     </ol>
 </ol>
+
 <ol style="list-style: disc;">
     <li>Filmer</li>
     <li>Böcker</li>
@@ -62,24 +69,36 @@
 
 <div>
     <form action="https://formshow.systementor.se">
+    <label for="förnamn">Förnamn</label>
+    <input type="text"><br>
+
+    <label for="efternamn">Efternamn</label>
+    <input type="text"><br>
+
+    <label for="email">E-postadress</label>
+    <input type="text"><br>
+
+    <label for="VIP">Ja</label>
+    VIP Paket?<input type="checkbox"><br>
+
+    <label for="Lotto">Lotto</label>
+    <input min="1" max="100" type="number"><br>
+
+    <label for="Info">Skriv yttligare information</label>
     <input type="text">
-    <label for="förnamn">Förnamn</label><br>
-    <input type="text">
-    <label for="efternamn">Efternamn</label><br>
-    <input type="text">
-    <label for="email">E-postadress</label><br>
-    VIP Paket?<input type="checkbox">
-    <label for="VIP">Ja</label><br>
-    <input min="1" max="100" type="number">
-    <label for="Lotto">Lotto</label><br>
-    <input type="text">
-    <label for="Info">Skriv yttligare information</label><br>   
+       
     <input type="submit">
 </form>
 </div>
 
 <div>
-<a href="https://aspcodeprod.blob.core.windows.net/school-dev/Sample-AVI-Video-File-for-Testing.avi" alt="https://aspcodeprod.blob.core.windows.net/school-dev/Sample-MP4-Video-File-for-Testing.mp4">En Video-tagg</a>
+    <video width="320" height="240" autoplay>
+        <source src="https://aspcodeprod.blob.core.windows.net/school-dev/Sample-AVI-Video-File-for-Testing.avi" type="video/avi">
+        <source src="https://aspcodeprod.blob.core.windows.net/school-dev/Sample-MP4-Video-File-for-Testing.mp4" type="video/mp4">
+    </video>
 </div>
+
+<a href="https://aspcodeprod.blob.core.windows.net/school-dev/Sample-AVI-Video-File-for-Testing.avi">Download Video</a>
+
     </body>
 </html>
