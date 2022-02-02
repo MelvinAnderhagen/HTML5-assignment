@@ -67,29 +67,29 @@
     <li>Böcker</li>
 </ul>
 
-<div>
-    <form action="https://formshow.systementor.se">
+    <form action="https://formshow.systementor.se/" method="POST">
+    
     <label for="förnamn">Förnamn</label>
-    <input type="text">
+    <input type="text" name="förnamn" id="förnamn"/>
 
     <label for="efternamn">Efternamn</label>
-    <input type="text">
+    <input type="text" name="efternamn" id="efternamn"/>
 
     <label for="email">E-postadress</label>
-    <input type="text">
+    <input type="text" name="email" id="email"/>
 
     <label for="VIP">Ja</label>
-    VIP Paket?<input type="checkbox">
+    VIP Paket?<input type="checkbox" name="VIP" id="VIP"/>
 
     <label for="Lotto">Lotto</label>
-    <input min="1" max="100" type="number">
+    <input min="1" max="100" type="number" name="Lotto" id="Lotto"/>
 
     <label for="Info">Yttligare information</label>
-    <input type="text">
+    <input type="text" name="Info" id="Info"/>
        
-    <input type="submit">
+    <input type="submit"/>
 </form>
-</div>
+
 
 <!--Fungerar inte jorden videon så reloada sidan, den verkar som att den buggar ibland-->
 <div>
